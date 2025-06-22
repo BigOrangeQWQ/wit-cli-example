@@ -1,4 +1,4 @@
-package "username/hello/impl"
+package "BigOrangeQWQ/wasi-cli-template/impl"
 
 // Values
 fn run() -> Result[Unit, Unit]

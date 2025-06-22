@@ -2,7 +2,7 @@
 
 ///|
 pub fn wasmExportRun() -> Int {
-  let result : Result[Unit, Unit] = @impl.run();
+  let result : Result[Unit, Unit] = @virtual.run();
   let lowered = match result {
     Ok(_payload) => 0
     Err(_payload2) => 1

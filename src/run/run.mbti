@@ -1,4 +1,4 @@
-package "username/hello/run"
+package "BigOrangeQWQ/wasi-cli-template/run"
 
 // Values
 fn cabi_realloc(Int, Int, Int, Int) -> Int

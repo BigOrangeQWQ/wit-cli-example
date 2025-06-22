@@ -3,5 +3,6 @@
       "BigOrangeQWQ/wasi-random/random",
       "BigOrangeQWQ/wasi-cli/stdout",
       "BigOrangeQWQ/wasi-io/streams"
-    ]
+    ],
+    "implement": "BigOrangeQWQ/wasi-cli/virtual"
 }
