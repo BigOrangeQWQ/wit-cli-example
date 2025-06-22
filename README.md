@@ -14,3 +14,12 @@
 - [ ] bindgen 尚未对 export 相关功能魔改，此处的模板是手动魔改的 bindgen 的结果。
 - [ ] 对于其它的 Package 而言，还需要增加自动发布的工作流
 - [ ] 试图使用虚拟包来实现 export 相关的内容
+
+
+## Usage 
+
+```bash
+wasm-tools component embed wit target/wasm/release/build/run/run.wasm -o target/wasm/release/build/run/run.wasm --encoding utf16
+wasm-tools component new target/wasm/release/build/run/run.wasm -o target/wasm/release/build/run/run.wasm
+wasmtime target/wasm/release/build/run/run.wasm
+```
