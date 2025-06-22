@@ -1,0 +1,7 @@
+{
+    "import": [
+      "BigOrangeQWQ/wasi-random/random",
+      "BigOrangeQWQ/wasi-cli/stdout",
+      "BigOrangeQWQ/wasi-io/streams"
+    ]
+}

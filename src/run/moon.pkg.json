@@ -1,0 +1,19 @@
+{
+    "link": {
+        "wasm": {
+            "exports": [
+                "cabi_realloc:cabi_realloc",
+                "wasmExportRun:wasi:cli/run@0.2.6#run"
+            ],
+            "export-memory-name": "memory",
+            "heap-start-address": 16
+        }
+    },
+    "import": [
+      {
+        "path": "BigOrangeQWQ/wit-ffi",
+        "alias": "ffi"
+      },
+      "username/hello/impl"
+    ]
+}

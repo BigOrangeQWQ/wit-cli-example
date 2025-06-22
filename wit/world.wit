@@ -1,0 +1,6 @@
+package test:example;
+
+world cli { 
+    include wasi:cli/command@0.2.6;
+}
+

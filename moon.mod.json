@@ -1,0 +1,14 @@
+{
+  "name": "BigOrangeQWQ/wasi-cli-template",
+  "version": "0.1.0",
+  "deps": {
+    "BigOrangeQWQ/wasi-cli": "0.2.6",
+    "BigOrangeQWQ/wit-ffi": "0.1.0"
+  },
+  "readme": "README.md",
+  "repository": "",
+  "license": "Apache-2.0",
+  "keywords": [],
+  "description": "",
+  "source": "src"
+}
